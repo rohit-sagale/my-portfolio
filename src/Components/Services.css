@@ -1,0 +1,61 @@
+.services {
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ padding: 40px;
+ font-weight: bold;
+ background-color: rgb(42, 48, 66);
+}
+
+.services h2 {
+ margin: 30px;
+ color: rgb(255, 255, 255);
+ font-weight: bold;
+}
+
+.services h2 span {
+ color: rgb(0, 194, 253);
+}
+
+.card-section {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ padding: 10px;
+}
+
+.card {
+ margin: 13px;
+ background-color: rgb(30, 30, 32);
+ box-shadow: 2px 4px 2px 2px white;
+ width: 25%;
+}
+
+.card h4 {
+ color: white;
+ font-weight: bold;
+}
+
+.card .card-header span {
+ color: aqua;
+}
+
+.card p {
+ color: rgb(177, 177, 177);
+}
+
+
+@media (max-width: 768px) {
+ .card-section {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+ }
+
+ .services h2 {
+  margin: 10px;
+ }
+
+ .card {
+  width: 100%;
+ }
+}

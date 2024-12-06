@@ -1,0 +1,126 @@
+.main {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-evenly;
+}
+
+.domains {
+ width: 30%;
+ margin-left: 50px;
+}
+
+.cat {
+ padding: 20px;
+ text-align: center;
+ margin-top: 20%;
+ box-shadow: 5px 3px 6px blueviolet;
+}
+
+.cat h5 {
+ padding: 20px;
+ background-color: red;
+ color: white;
+ font-weight: bold;
+ margin-top: 20px;
+ box-shadow: 2px 4px 3px black;
+}
+
+.skill-progess-bar {
+ font-family: Arial, sans-serif;
+ /* max-width: 80%; */
+ width: 50%;
+ margin: 0 auto;
+ padding: 20px;
+ margin-top: 20px;
+ margin-bottom: 20px;
+ background-color: #f4f4f9;
+ /* box-shadow: 0 4px 8px 0 rgba(152, 234, 255, 0.2), 0 6px 20px 0 rgba(91, 160, 250, 0.19); */
+ box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+h1 {
+ text-align: center;
+ color: #2965f1;
+}
+
+.skill {
+ margin: 15px 0;
+}
+
+.label {
+ font-weight: bold;
+ margin-bottom: 5px;
+}
+
+.progress {
+ width: 100%;
+ background: #e0e0e0;
+ border-radius: 20px;
+ overflow: hidden;
+}
+
+.progress-bar {
+ height: 20px;
+ line-height: 20px;
+ color: #fff;
+ text-align: center;
+ font-size: 12px;
+}
+
+.html {
+ background: #f16529;
+ width: 85%;
+}
+
+.css {
+ background: #2965f1;
+ width: 80%;
+}
+
+.javascript {
+ background: #f7df1e;
+ color: #000;
+ width: 70%;
+}
+
+.bootstrap {
+ background: #563d7c;
+ width: 75%;
+}
+
+.python {
+ background: #3776ab;
+ width: 90%;
+}
+
+.Django {
+ background-color: black;
+ width: 75%;
+}
+
+.react {
+ background-color: purple;
+ width: 70%;
+ color: white;
+}
+
+.Mysql {
+ background-color: #3776ab;
+ width: 80%;
+}
+
+@media (max-width: 768px) {
+ .main {
+  display: flex;
+  flex-direction: column;
+ }
+
+ .domains {
+  width: 100%;
+  margin-left: 0;
+ }
+
+ .skill-progess-bar {
+  width: 100%;
+ }
+}
