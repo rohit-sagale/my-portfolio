@@ -16,9 +16,9 @@ function App() {
     <>
       <Header></Header>
       {/* <Home></Home> */}
-      {/* {<About></About>} */}
-      {/* {<Services></Services>} */}
-      {/* {<Skills></Skills>} */}
+      {/* {<About></About>}
+      {<Services></Services>}
+      {<Skills></Skills>} */}
       <Footer></Footer>
     </>
   );
